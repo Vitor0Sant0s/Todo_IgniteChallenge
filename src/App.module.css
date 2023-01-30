@@ -1,0 +1,103 @@
+.wrapper {
+  max-width: 76.8rem;
+  margin: auto;
+  padding: 0 0 3rem 0;
+}
+
+form {
+  width: 100%;
+
+  display: flex;
+  gap: 0.8rem;
+
+  margin-top: -2.5rem;
+}
+
+form .input {
+  width: 100%;
+  border-radius: 8px;
+
+  font-size: 1.6rem;
+
+  background-color: var(--background);
+  border: none;
+}
+
+form .button {
+  border: none;
+  border-radius: 8px;
+
+  align-self: center;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1.6rem;
+  gap: 0.8rem;
+
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+
+  transition: background-color 0.1s;
+}
+
+form .button:hover {
+  background-color: var(--blue);
+}
+
+.tasks {
+  margin-top: 2.4rem;
+}
+
+.taskStatus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.taskStatus div {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.tasksStatusCreated,
+.tasksStatusFinish,
+.tasksStatusQtd {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.tasksStatusCreated {
+  color: var(--blue);
+}
+
+.tasksStatusFinish {
+  color: var(--purple);
+}
+
+.tasksStatusQtd {
+  display: flex;
+  align-items: center;
+
+  padding: 0.2rem 0.8rem;
+
+  border-radius: 999px;
+  line-height: 1rem;
+
+  background-color: var(--background);
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+
+  .wrapper {
+    padding: 2rem;
+  }
+
+  form {
+    margin-top: -4.5rem;
+  }
+}

@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 1.2rem;
+
+  padding: 1.6rem;
+
+  background-color: var(--background);
+  border-radius: 8px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+
+  gap: 1.2rem;
+
+  padding-left: 2px;
+
+  overflow: hidden;
+}
+
+.content p {
+  flex-wrap: wrap;
+}
+
+.finishedTodo {
+  color: var(--gray-300);
+  text-decoration: line-through;
+
+  transition: all 0.4s ease-in-out;
+}
+
+.container svg {
+  color: var(--gray-300);
+  transition: color 0.1s ease-in-out;
+}
+
+.container svg:hover {
+  color: var(--danger);
+}
