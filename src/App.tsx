@@ -43,7 +43,8 @@ function App() {
           <input 
             id="todo"
             type="text" 
-            name="todo" 
+            name="todo"
+            placeholder='Adicione uma nova tarefa'
             required
             value={todo}
             className={styles.input} 
