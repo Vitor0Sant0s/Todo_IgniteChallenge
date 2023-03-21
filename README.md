@@ -52,8 +52,8 @@ Veja o site neste link: [**To-Do List App | Rocketseat Ignite - Challenge**
 
 **Com tarefa criada**
 ![signin](./docs/assets/02.png)
-![signin](./docs/assets/03.png)
 
 **Com tarefa concluída**
+![signin](./docs/assets/03.png)
 
 ### Published with [**Vercel**](https://vercel.com/dashboard)
